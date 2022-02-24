@@ -15,5 +15,5 @@ with open('skillsoft.html', 'wb') as f:
     for chunk in rPost.iter_content(chunk_size=10000):
         f.write(chunk)
 time.sleep(1)
-file = 'file:///Users/krish/Documents/Repos/Python/skillsoft.html'
+file = 'file:///Users/krish/Documents/Repos/Python/http/skillsoft.html'
 webbrowser.open(file, new=1)
